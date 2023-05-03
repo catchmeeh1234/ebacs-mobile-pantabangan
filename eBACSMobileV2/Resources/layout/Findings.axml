@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background = "#FFFF">
+
+
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "0.1"
+	>
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:paddingTop = "10dp">
+
+			<TextView
+				android:text="Account Number: "
+				android:layout_width= "wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginRight="2dp"
+				android:textSize = "20dp"
+				android:paddingLeft="10dp" 
+			/>
+
+			<TextView
+				android:text="Account Number"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtaccno"
+				android:textSize = "20dp"
+			/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:paddingTop = "40dp">
+
+			<TextView
+				android:text="Concessionare: "
+				android:layout_width= "wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/textView1"
+				android:layout_marginRight="2dp"
+				android:textSize = "20dp"
+				android:paddingLeft="10dp" 
+			/>
+
+			<TextView
+				android:text="Concessionare"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtconces"
+				android:textSize = "20dp"
+			/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:paddingTop = "95dp">
+
+
+			<TextView
+				android:paddingLeft="10dp" 
+				android:text="Findings: "
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/geadf"
+				android:textSize = "20dp"
+			/>
+
+			<Spinner
+
+				
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/spinner1"
+				android:textSize = "18dp"
+			/>
+		
+			
+		</LinearLayout>
+
+
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:paddingTop = "150dp">
+
+
+			<EditText
+				android:text=""
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/txtremarks"
+				android:textSize = "18dp"
+				
+			/>
+		
+			
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:paddingTop = "200dp">
+
+
+			<Button
+				android:text="Submit"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/btnsubmit"
+				android:textSize = "18dp"
+				android:textColor = "#022e0e"
+				android:background = "#FFFF"
+			/>
+		
+			
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:orientation = "horizontal"
+			android:paddingTop = "250dp">
+
+
+			<TextView
+				android:text="Reported by: "
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/dsgerae"
+				android:textSize = "18dp"
+				android:paddingLeft="10dp" 
+
+			/>
+		
+			<TextView
+				android:text="Name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtname"
+				android:textSize = "18dp"
+			/>
+		</LinearLayout>
+		
+
+	</RelativeLayout>
+
+</LinearLayout>

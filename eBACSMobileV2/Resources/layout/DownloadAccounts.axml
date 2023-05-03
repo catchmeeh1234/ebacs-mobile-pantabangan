@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+	>
+
+
+	<LinearLayout
+		android:orientation = "vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:paddingTop = "30dp"
+		android:layout_weight = "1.1"
+
+	>
+
+			<TextView
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:text = "Server IP Address"
+				android:textSize = "20dp"
+				android:gravity = "center"
+			/>
+
+
+			<EditText
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:paddingTop="20dp"
+				android:id ="@+id/txtip"
+				android:textAlignment = "center"
+			/>
+
+			<TextView
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:text = "Printer MAC Address"
+				android:textSize = "20dp"
+				android:gravity = "center"
+			/>
+
+
+			<EditText
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:paddingTop="20dp"
+				android:id ="@+id/txtprinter"
+				android:textAlignment = "center"
+			/>
+
+
+		<EditText
+				android:text=""
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/txtpass"
+				android:inputType = "textPassword"
+				android:textAlignment = "center"
+				android:textSize = "18dp"
+				android:hint = "Password"
+				
+			/>
+
+
+		
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "30dp"
+
+		>
+
+			<Button
+				android:id = "@+id/btndownload"
+				android:layout_width = "300dp"
+				android:layout_height = "45dp"
+				android:text = "Update IP and Download Accounts"
+				android:textColor = "#ffffff"
+				android:background = "@drawable/RoundButton"
+				android:layout_centerInParent = "true"
+			/>
+
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			
+
+		>
+
+			<Button
+				android:id = "@+id/btnupdateprinter"
+				android:layout_width = "300dp"
+				android:layout_height = "45dp"
+				android:text = "Update Printer Address"
+				android:textColor = "#ffffff"
+				android:background = "@drawable/RoundButton"
+				android:layout_centerInParent = "true"
+			/>
+
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "30dp"
+
+		>
+
+			<Button
+				android:id = "@+id/btnsyshistory"
+				android:layout_width = "300dp"
+				android:layout_height = "45dp"
+				android:text = "System History"
+				android:textColor = "#ffffff"
+				android:background = "@drawable/RoundButton"
+				android:layout_centerInParent = "true"
+			/>
+
+
+		</RelativeLayout>
+
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "30dp"
+
+		>
+			<ProgressBar
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:layout_centerInParent = "true"
+				android:id = "@+id/prog"
+				android:visibility = "invisible"
+			/>
+
+		</RelativeLayout>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation = "vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+
+
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		android:layout_weight = "1"
+		android:background = "#097969"
+	>
+
+
+		<Refractored.Controls.CircleImageView
+			android:id ="@+id/circleimageview1"
+			android:layout_height = "200dp"
+			android:layout_width = "200dp"
+			android:layout_centerInParent = "true"
+			android:src = "@drawable/pantabangan"
+		/>
+		
+		
+		<TextView
+			android:layout_height = "wrap_content"
+			android:layout_width = "match_parent"
+			android:gravity = "center"
+			android:textSize = "20sp"
+			android:layout_below = "@+id/circleimageview1"
+			android:layout_alignParentBottom = "true"
+			android:textColor = "#ffffff"
+			android:text = "eBACS Reader v2"
+		/>
+
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation = "vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight = "1.1"
+		android:paddingTop="10dp"
+
+	>
+
+			<EditText
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:id ="@+id/txtusername"
+				android:paddingTop="10dp"
+				android:hint = "User Name"
+				android:textAlignment = "center"
+			/>
+
+
+			<EditText
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:paddingTop="10dp"
+				android:hint = "Password"
+				android:id ="@+id/txtpassword"
+				android:inputType = "textPassword"
+				android:textAlignment = "center"
+			/>
+
+		
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "20dp"
+
+		>
+
+			<Button
+				android:id = "@+id/btnlogin"
+				android:layout_width = "300dp"
+				android:layout_height = "45dp"
+				android:text = "Login"
+				android:textColor = "#ffffff"
+				android:background = "@drawable/RoundButton"
+				android:layout_centerInParent = "true"
+				android:textSize = "20dp"
+			/>
+		</RelativeLayout>
+
+
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "10dp"
+
+		>
+
+			<Button
+				android:id = "@+id/btnsetting"
+				android:layout_width = "300dp"
+				android:layout_height = "45dp"
+				android:text = "Server Configuration"
+				android:textColor = "#ffffff"
+				android:background = "@drawable/RoundButton"
+				android:layout_centerInParent = "true"
+				android:textSize = "18dp"
+			/>
+
+		
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent"
+			android:padding = "10dp"
+		>
+			<TextView
+				android:layout_width = "match_parent"
+				android:layout_height = "wrap_content"
+				android:gravity = "center"
+				android:id = "@+id/lblall"
+				android:text="All rights reserved | Pantabangan Water Works"
+				android:layout_below = "@+id/btnsetting"
+			/>
+			
+		</RelativeLayout>
+		
+
+	</LinearLayout>
+</LinearLayout>

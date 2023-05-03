@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "10dp"
+
+	>
+
+		<Button
+			android:id = "@+id/btnprint"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = "Print"
+			android:textSize = "17dp"
+			android:textColor = "#ffffff"
+			android:background = "@drawable/RoundButtonDashboard"
+			android:layout_centerInParent = "true"
+		/>
+
+		
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+
+	>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:textSize = "20dp"
+			android:id ="@+id/txtcount"
+			android:text = "Welcome"
+			android:textAlignment = "center"
+			android:layout_below = "@+id/btnprint"
+			/>
+
+		
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+
+	>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:textSize = "20dp"
+			android:id ="@+id/txtcount"
+			android:text = "  Meter No.  |  Account No.  |  Concessionaire"
+			android:textAlignment = "center"
+			android:layout_below = "@+id/btnprint"
+			/>
+
+		
+	</RelativeLayout>
+
+
+	<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+		<TableLayout
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/tableLayout1">
+		
+		</TableLayout>
+
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+	<LinearLayout
+		android:orientation = "vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight = "3.9"
+		android:background= "#ffff"
+		android:paddingTop = "10dp"
+		
+	>
+
+		<Button
+			android:id = "@+id/btnupload"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = "Start Upload"
+			android:textSize = "19dp"
+			android:textColor = "#ffffff"
+			android:background = "#4a5ad9"
+			android:layout_centerInParent = "true"
+				
+		/>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = ""
+			android:textSize = "15dp"
+			android:gravity = "center"
+			android:id = "@+id/lblbill"
+			android:textColor = "#000000"
+			android:paddingTop = "10dp"
+		/>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = ""
+			android:textSize = "15dp"
+			android:gravity = "center"
+			android:id = "@+id/lblcustomer"
+			android:textColor = "#000000"
+			android:paddingTop = "10dp"
+			android:visibility = "gone"
+		/>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = ""
+			android:textSize = "15dp"
+			android:gravity = "center"
+			android:id = "@+id/lblhistory"
+			android:textColor = "#000000"
+			android:paddingTop = "10dp"
+		/>
+
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = ""
+			android:textSize = "15dp"
+			android:gravity = "center"
+			android:id = "@+id/lblfindings"
+			android:textColor = "#000000"
+			android:paddingTop = "10dp"
+		/>
+		<TextView
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:text = ""
+			android:textSize = "15dp"
+			android:gravity = "center"
+			android:id = "@+id/lblmeterreport"
+			android:textColor = "#000000"
+			android:paddingTop = "10dp"
+		/>
+
+
+		<ProgressBar
+		
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:layout_centerInParent = "true"
+			android:id = "@+id/prog"
+			android:visibility = "invisible"
+			android:paddingTop = "10dp"
+		
+		/>
+
+	</LinearLayout>
+
+
+</LinearLayout>
